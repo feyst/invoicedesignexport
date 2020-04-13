@@ -1,0 +1,16 @@
+{
+    "name": "InvoiceDesignExport",
+    "alias": "invoicedesignexport",
+    "description": "Upload or download an invoice pdf design for InvoiceNinja",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\InvoiceDesignExport\\Providers\\InvoiceDesignExportServiceProvider"
+    ],
+    "aliases": [],
+    "files":[],
+    "icon": "th-large",
+    "plural": "invoicedesignexport",
+    "no-sidebar": 1
+}

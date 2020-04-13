@@ -1,0 +1,16 @@
+{
+    "name": "feyst/invoicedesignexport",
+    "type": "invoiceninja-module",
+    "description": "Upload or download an invoice pdf design for InvoiceNinja",
+    "authors": [
+        {
+            "name": "Mark van der Feijst",
+            "email": "mark@feyst.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\InvoiceDesignExport\\": ""
+        }
+    }
+}
