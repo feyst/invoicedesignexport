@@ -9,6 +9,11 @@ Install the module like any other Invoice Ninja module:
 php artisan module:install feyst/invoicedesignexport --type=github-https
 ```
 
+It might be possible that you get an error that the service provider is not found. In that case please run the following in the root of Invoice Ninja:
+```
+composer dump-autoload --quiet
+```
+
 After the installation is complete, you must run the Artisan command to inject the view into the relevant Invoice Ninja views:
 ```
 php artisan invoicedesignexport:insert-buttons
